@@ -1,6 +1,6 @@
 {
   "name": "appls",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A library to make elegant web-apps making use of the geniously designed language LiveScript",
   "main": "appls.js",
   "scripts": {
