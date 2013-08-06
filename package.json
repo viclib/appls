@@ -1,6 +1,6 @@
 {
   "name": "appls",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A library to make elegant web-apps making use of the geniously designed language LiveScript",
   "main": "appls.js",
   "scripts": {
@@ -16,6 +16,7 @@
     "LiveScript",
     "html"
   ],
+  "bin":{"appls":"./bin/appls"},
   "dependencies": {"LiveScript":"1.2.0", "browserify":"2.26.0", "prelude-ls":"1.0.3"},
   "author": "Viclib",
   "license": "MIT"
