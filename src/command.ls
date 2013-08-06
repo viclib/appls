@@ -10,7 +10,7 @@ if not file?
 	process.exit!
 
 if (file.indexOf ".ls") != -1
-	file .= slice 0 (file.indxOf ".ls")
+	file = file.slice 0 (file.indexOf ".ls")
 
 console.log "Appls: compiling " + file
 exec lsc + '/lsc -cp '+file+'.ls > '+file+'.js' ->
